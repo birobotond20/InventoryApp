@@ -1,0 +1,128 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Inventory App</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit empty here…</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Add a new item by clicking on the + button</string>
+
+    <!-- Text for list item "Buy" button -->
+    <string name="sale_button_text">Sale</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for the product's quantity if the quantity is 0 [CHAR LIMIT=20] -->
+    <string name="out_of_stock">Out of stock</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Label for image information in the editor [CHAR LIMIT=30] -->
+    <string name="category_image">Image</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price (in cents)</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Text hint for supplier field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_supplier">Supplier</string>
+
+    <!-- Text to display on the decrease quantity button in the Detail layout -->
+    <string name="decrease_quantity_text" translatable="false">-</string>
+
+    <!-- Text to display on the increase quantity button in the Detail layout -->
+    <string name="increase_quantity_text" translatable="false">+</string>
+
+    <!-- Text to display on the select image button in the Detail layout -->
+    <string name="select_image_text">Select image</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="detail_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit an existing product [CHAR LIMIT=20] -->
+    <string name="detail_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for editor menu option to order more from the current product via e-mail
+     [CHAR LIMIT=20] -->
+    <string name="action_send_mail">Order more</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="detail_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="detail_insert_product_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="detail_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="detail_update_product_failed">Error with updating product</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="detail_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="detail_delete_product_failed">Error with deleting product</string>
+
+    <!-- Name for the order summary. It will be shown in the format of "Name: Amy"
+     where Amy is the user's name. [CHAR LIMIT = NONE] -->
+    <string name="order_summary_supplier">Dear <xliff:g id="supplier" example="Amazon">%s</xliff:g>,</string>
+
+    <!-- Text body for the e-mail [CHAR LIMIT=NONE] -->
+    <string name="order_summary_text_body">I would like to order … pcs from
+        the <xliff:g id="product_name" example="Sennheiser headphones">%s</xliff:g> for our inventory.</string>
+
+    <!-- Thank you text for the e-mail [CHAR LIMIT=NONE] -->
+    <string name="kind_regards">Kind regards,\nsamplestore.com</string>
+
+    <!-- Subject for the e-mail [CHAR LIMIT=NONE] -->
+    <string name="email_subject">Order for samplestore.com</string>
+
+    <!-- Message to show when the user tries to decrease the quantity below 0
+    with the decrease button in the Detail screen -->
+    <string name="error_quantity_below_zero">You cannot have less then 0 as quantity</string>
+
+    <!-- Toast message text to show when the user tries to save a product with fields left empty -->
+    <string name="empty_fields_toast_message">Please complete all fields before proceeding</string>
+</resources>
+

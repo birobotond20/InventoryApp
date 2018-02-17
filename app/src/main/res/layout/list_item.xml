@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of products -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/product_name_list_item"
+        tools:text="Sony In-ear headphone" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/product_quantity_list_item"
+        tools:text="Quantity: 1" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="$21.00" />
+
+    <!-- Properties "focusable" and focusableInTouchMode are required to be set to false
+     otherwise setOnItemClickListener will not work. Not sure why. -->
+    <Button
+        android:id="@+id/sale_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/price"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/sale_button_text" />
+</RelativeLayout>
